@@ -1,0 +1,495 @@
+body{
+    width:1000px;
+    margin: 0 auto;
+    background-color: #FFE90E;
+    
+}
+header{
+    width: 1598px;
+    height: 250px;
+    margin-left: -300px;
+}
+
+
+li{
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+ul li ul li{
+    display: none;
+    float: none;
+    width: 40px;
+    left: -80px;
+    position: relative;
+    color: black;
+    
+}
+ul li ul{
+    position: absolute;
+    
+    background-color: dodgerblue;
+    margin-left: -10px;
+    
+    
+}
+ul li:hover ul li{
+    display: block;
+    
+}
+
+div.barra{
+    background-color: dodgerblue;
+    width: 1258px;
+    height: 70px;
+    float: left;
+    padding-left: 340px;
+    font-weight: bold;
+}
+
+
+h2{
+    margin-top: 100px;
+    margin-left: -150px;
+    
+
+}
+h2:hover{
+    margin-top: 100px;
+    margin-left: -150px;
+    color: midnightblue;
+
+}
+
+h2.contacto{
+    text-align: center;
+    font-weight: 20px;
+}
+
+h2.contacto:hover{
+    text-align: center;
+    font-weight: 20px;
+    color: midnightblue;
+}
+
+div.escudo{
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+img.escudo{
+    width: 250px;
+    height: 250px;
+}
+
+nav{
+    float: left;
+    margin-left: -300px;
+    
+}
+
+img.portada{
+    height: 250px; 
+    width: 1348px
+}
+
+div.class{
+    margin-left: 730px;
+    position: absolute;
+    top: 330px;
+}
+
+p.noticia{
+    margin-left: -200px;
+    width: 900px;
+}
+
+a:hover{
+    color: white;
+}
+
+a{
+    color: black;
+}
+
+div.fondo{
+    background-color: dodgerblue;
+    width: 1585px;
+    height: 200px;
+    margin-left: -292px;
+    
+}
+
+div.pie{
+    width: 300px;
+    height: 50px;
+    float: left;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 30px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+img.escudopie{
+    width: 200px;
+    height: 200px;
+    filter: brightness(1);
+    mix-blend-mode: multiply;
+}
+
+div.centro{
+   float: left;
+    margin-left: 370px;
+}
+
+div.facebook{
+    float: left;
+    margin-left: 320px;
+    margin-top: 80px;
+}
+
+div.instagram{
+    float: left;
+    margin-top: 80px;
+}
+
+div.twitter{
+    float: left;
+    margin-top: 80px;
+}
+ 
+li.bl:hover{
+    color: white;
+}
+
+p.titulo{
+    margin-top: 90px;
+    font-weight: bold;
+}
+p.tituloo{
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 1.8em;
+}
+
+td.jugador{
+    width: 250px;
+    height: 300px;   
+}
+
+table.jugadores{
+    border-style: none;
+    border-collapse: collapse;
+    margin-left: -160px;
+}
+
+td, tr, th {
+    border-style: none;
+    text-align: center;
+}
+
+td{
+    padding-left: 30px;
+    padding-top: 10px;  
+}
+
+th:hover{
+    color: dodgerblue;
+}
+
+td.jugador img:hover{
+border-radius:50%;
+-webkit-border-radius:50%;
+box-shadow: 0px 0px 10px 10px dodgerblue;
+-webkit-box-shadow: 0px 0px 10px 10px dodgerblue;
+transform: rotate(360deg);
+-webkit-transform: rotate(360deg); 
+}
+
+
+
+td.jugador img{
+    transition: 1.3s;
+}
+
+
+div.pie:hover{
+    color:yellow;
+}
+
+.mapa{
+    
+    margin-left: 500px;
+    margin-bottom: 20px;
+}
+
+
+.contact_form{  
+  width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: dodgerblue; 
+  padding-left: 30px; 
+  margin-left: -200px;
+    margin-top: -480px
+}
+
+
+input{
+  background-color: #fbfbfb; 
+  width: 408px; 
+  height: 40px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+   
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+  width: 405px; 
+  height: 150px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: dodgerblue; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+  display: block; 
+  float: center;  
+}
+
+
+button{
+  height: 45px; 
+  padding-left: 5px;
+  padding-right: 5px;   
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: blue; 
+  border-color: dodgerblue; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+  cursor: pointer;
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: red; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+h1.form{
+  font-size: 39px;  
+  text-align: letf; 
+  padding-bottom: 20px; 
+  color: yellow;
+}
+
+
+h3.form{
+  font-size: 16px; 
+  padding-bottom: 30px;
+  color: #0e0e0e;   
+}
+
+
+p{
+  font-size: 14px; 
+  color: #0e0e0e; 
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid black;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid black;
+}
+
+
+
+
+.articulos{
+    height: 300px;
+    width: 250px;
+   margin-bottom: 10px;
+    margin-left: 80px;
+
+}
+.articulos:hover{
+    height: 300px;
+    width: 250px;
+   margin-bottom: 10px;
+    margin-left: 80px;
+       filter:alpha(opacity=50); 
+-moz-opacity: 0.5; 
+opacity: 0.5
+
+}
+
+.articulodos{
+    margin-left: 300px;
+    margin-top: -315px;
+}
+
+.articulotres{
+    margin-left: 600px;
+    margin-top: -315px;
+}
+
+div.infoproducto{
+    margin-left: 350px;
+    margin-top: -300px;
+    margin-bottom: 150px;
+}
+
+
+img.comprar{
+    width: 100px;
+    height: 60px;
+}
+
+img.volver{
+    width:  100px;
+   
+}
+
+input.numero{
+    width: 30px;
+    margin-left: 10px;
+    height: 15px;
+}
+
+input.nombre{
+    width: 250px;
+}
+
+div.fotoprevisualizar{
+    margin-left: 130px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+    margin-top: -35px;
+   
+}
+
+div.fotoprevisualizar:hover{
+    margin-left: 130px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+    margin-top: -35px;
+     filter: blur(1px);
+    transform: rotate(10deg) scale(1.2);
+   
+}
+
+img.calentamientoprevi{
+    width: 60px;
+    height: 60px;
+}
+
+div.fotoprevisualizar2{
+    margin-left: 220px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+    margin-top: -80px;
+}
+
+div.fotoprevisualizar2:hover{
+    margin-left: 220px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+    margin-top: -80px;
+   filter: blur(1px);
+    transform: rotate(10deg) scale(1.2);
+}
+
+
+div.fotoprevisualizar4{
+    margin-left: 220px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+    margin-top: -80px;
+}
+
+div.fotoprevisualizar4:hover{
+    margin-left: 220px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+    margin-top: -80px;
+   filter: blur(1px);
+    transform: rotate(10deg) scale(1.2);
+}
+
+div.fotoprevisualizar3{
+    margin-left: 130px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+    margin-top: -170px;
+   
+}
+
+div.fotoprevisualizar3:hover{
+    margin-left: 130px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 60px;
+    margin-top: -170px;
+     filter: blur(1px);
+    transform: rotate(10deg) scale(1.2);
+   
+}
+
+
